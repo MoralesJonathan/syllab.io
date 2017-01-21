@@ -1,0 +1,4 @@
+gulpfile.js
+dev/*
+mongodata/*
+node_modules/*
