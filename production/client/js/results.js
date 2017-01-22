@@ -1,0 +1,1 @@
+$(document).ready(function(){$.get("getresults/",function(e){console.log(e),$("#video1").attr("src",e.source1),$("#video2").attr(e.source2)})});
