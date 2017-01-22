@@ -211,11 +211,15 @@ function dayFinder(savior) {
     }
   }
   console.log(gEvents)
+  getGcalstartDate();
 };
 
 function getGcalstartDate(){
+  console.log("testing the get first class date thingy"+getfirstclassdate())
   substingedDate = dates[getfirstclassdate()].substring(0,2)
   nextDay(substingedDate);
+  console.log(gday)
+}
 
 function getfirstclassdate () {
    for(var x=0;x<dates.length;x++){
@@ -247,7 +251,6 @@ function nextDay(dayinquestion) {
     }
   }
 }
-
 
 
 
